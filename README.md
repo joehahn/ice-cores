@@ -19,12 +19,13 @@ execute that installer
     chmod +x Anaconda2-5.3.1-MacOSX-x86_64.sh
     ./Anaconda2-5.3.1-MacOSX-x86_64.sh -b -p ./anaconda2
 
-and then use the PYTHON_PATH bash variable to point at the folder where Anaconda python is installed:
+and then use the PYTHON_PATH bash variable to point at the folder where Anaconda python was
+installed locally:
 
     PYTHON_PATH="$(echo $(pwd))"/anaconda2/bin
     $PYTHON_PATH/python --version
 
-and that python v2.7.15 is installed locally
+with the last line in the above indicating that python v2.7.15 was installed locally.
 
 
 ### download ice core data
