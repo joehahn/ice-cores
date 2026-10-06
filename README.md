@@ -1,7 +1,7 @@
 # ice-cores
 
 by Joe Hahn,<br />
-jmh.datasciences@gmail.com,<br />
+joe.hahn@jmh-datasciences.com,<br />
 1 January 2019<br />
 git branch=master
 
